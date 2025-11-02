@@ -24,11 +24,11 @@ clean:
 
 Questions:
 
-* What is the purpose of all the rules in this Makefile?
-    Generate program binary file from `main.c`, `math_operations.c` and `string_operations.c`
+* What is the purpose of all the rules in this Makefile?<br>
+    Generate **program** binary file from `main.c`, `math_operations.c` and `string_operations.c`
 
-* Explain what the %.o: %.c rule does.
+* Explain what the %.o: %.c rule does.<br>
     Set target of a o file for each c file. ( main.o: main.c)
 
-* What does the clean rule do, and when would you use it?
+* What does the clean rule do, and when would you use it?<br>
     Here, clean command remove all object files and our final target binary file. We must use this command when we want to clean our directory from previous make command output.
